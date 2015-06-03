@@ -1,0 +1,56 @@
+<head>
+    <title>bouvet-log</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<div role="tabpanel">
+    <div style="float: right; padding: 1em">{{>loginButtons}}</div>
+    <header>
+        <h1 class="page-header">Bouvet Ligaen <small></small></h1>
+    </header>
+
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab"
+                                                  data-toggle="tab">Log aktivitet</a></li>
+        <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Mine aktiviteter</a></li>
+        <li role="presentation"><a href="#graphs" aria-controls="graphs" role="tab" data-toggle="tab">Konkurransen</a>
+        </li>
+    </ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="home">
+          {{>home}}
+        </div>
+        <div role="tabpanel" class="tab-pane" id="profile">
+          {{>profile}}
+        </div>
+        <div role="tabpanel" class="tab-pane" id="graphs">
+          {{>graphs}}
+        </div>
+    </div>
+
+</div>
+
+</body>
+
+<template name="home">
+    <h1 class="jumbotron">Home</h1>
+</template>
+
+<template name="profile">
+    <h1 class="jumbotron">Profile</h1>
+</template>
+
+<template name="graphs">
+    <h1 class="jumbotron">Graphs</h1>
+</template>
