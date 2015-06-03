@@ -2,3 +2,14 @@
 .jumbotron, .page-header{
     padding: 1em;
 }
+
+.login-link-text{
+    margin-bottom: 1em;
+    margin-top: 2em;
+    border: solid 1px #eee;
+    background-color: #eee;
+    font-size: 200%;
+    width: 100px;
+    padding: 0.3em;
+    border-radius: 0.1em;
+}

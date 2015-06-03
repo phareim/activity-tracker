@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16c58ea7-01e5-44db-93bc-c67ba2167881" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\dev\git\phareim.github.com\bouvet-log\client\fonts\glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\dev\git\phareim.github.com\bouvet-log\client\fonts\glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\dev\git\phareim.github.com\bouvet-log\client\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\dev\git\phareim.github.com\bouvet-log\client\fonts\glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\dev\git\phareim.github.com\bouvet-log\client\fonts\glyphicons-halflings-regular.woff2" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bouvet-log.css" afterPath="$PROJECT_DIR$/bouvet-log.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bouvet-log.html" afterPath="$PROJECT_DIR$/bouvet-log.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/packages" afterPath="$PROJECT_DIR$/.meteor/packages" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/versions" afterPath="$PROJECT_DIR$/.meteor/versions" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bouvet-log.iws" />
@@ -36,11 +29,12 @@
       <file leaf-file-name="bouvet-log.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bouvet-log.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.31170335">
-              <caret line="28" column="73" selection-start-line="28" selection-start-column="73" selection-end-line="28" selection-end-column="73" />
+            <state vertical-scroll-proportion="0.33487833">
+              <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
                 <element signature="n#template#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#template#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -50,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/bouvet-log.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -92,8 +86,8 @@
         <option value="$PROJECT_DIR$/bouvet-log.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/client/css/bootstrap.min.css" />
-        <option value="$PROJECT_DIR$/bouvet-log.css" />
         <option value="$PROJECT_DIR$/bouvet-log.html" />
+        <option value="$PROJECT_DIR$/bouvet-log.css" />
       </list>
     </option>
   </component>
@@ -435,7 +429,7 @@
       <created>1433328701971</created>
       <option name="number" value="Default" />
       <updated>1433328701971</updated>
-      <workItem from="1433328703109" duration="6222000" />
+      <workItem from="1433328703109" duration="7553000" />
     </task>
     <task id="LOCAL-00001" summary="init.">
       <created>1433331187645</created>
@@ -443,11 +437,17 @@
       <option name="project" value="LOCAL" />
       <updated>1433331187645</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Bootstrap is fun! :)">
+      <created>1433335978474</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1433335978474</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6222000" />
+    <option name="totallyTimeSpent" value="7553000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -484,7 +484,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init." />
-    <option name="LAST_COMMIT_MESSAGE" value="init." />
+    <MESSAGE value="Bootstrap is fun! :)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bootstrap is fun! :)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -518,18 +519,19 @@
     <entry file="file://$PROJECT_DIR$/bouvet-log.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bouvet-log.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31170335">
-          <caret line="28" column="73" selection-start-line="28" selection-start-column="73" selection-end-line="28" selection-end-column="73" />
+        <state vertical-scroll-proportion="0.33487833">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#template#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#template#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

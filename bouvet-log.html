@@ -15,19 +15,28 @@
 
 <body>
 <div role="tabpanel">
-    <div style="float: right; padding: 1em">{{>loginButtons}}</div>
     <header class="page-header">
         <h1>Bouvet Ligaen
-            <small>... made with <a href="http://meteor.com">meteor</a> & <a href="http://getbootstrap.com">bootstrap</a>.</small>
+            <small>... made with <a href="http://meteor.com">meteor</a> & <a
+                    href="http://getbootstrap.com">bootstrap</a>.
+            </small>
         </h1>
+        <div class="form-group form-group-lg">
+            <div>{{>loginButtons}}</div>
+        </div>
     </header>
 
     <!-- Nav tabs -->
     <ul class="nav nav-tabs" role="tablist">
         <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab"
-                                                  data-toggle="tab"><span class="fa fa-check"></span> Legg inn ny aktivitet</a></li>
-        <li role="presentation"><a href="#history" aria-controls="history" role="tab" data-toggle="tab"><span class="fa fa-archive"></span> Mine aktiviteter</a></li>
-        <li role="presentation"><a href="#graphs" aria-controls="graphs" role="tab" data-toggle="tab"><span class="fa fa-bar-chart"></span> Konkurransen</a>
+                                                  data-toggle="tab"><span class="fa fa-check"></span> Legg inn ny
+            aktivitet</a></li>
+        <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab"><span
+                class="fa fa-user"></span> Min profil</a></li>
+        <li role="presentation"><a href="#history" aria-controls="history" role="tab" data-toggle="tab"><span
+                class="fa fa-archive"></span> Mine aktiviteter</a></li>
+        <li role="presentation"><a href="#graphs" aria-controls="graphs" role="tab" data-toggle="tab"><span
+                class="fa fa-bar-chart"></span> Konkurransen</a>
         </li>
     </ul>
 
@@ -38,6 +47,9 @@
         </div>
         <div role="tabpanel" class="tab-pane" id="history">
           {{>history}}
+        </div>
+        <div role="tabpanel" class="tab-pane" id="profile">
+          {{>profile}}
         </div>
         <div role="tabpanel" class="tab-pane" id="graphs">
           {{>graphs}}
@@ -97,7 +109,7 @@
         <br>
 
         <div class="row">
-            <div class="col-sm-8">
+            <div class="col-sm-8" style="text-align: center">
 
                 <label class="checkbox-inline">
                     <input type="checkbox" checked data-toggle="toggle" data-on="Trening!" data-off="Utrent."
@@ -108,11 +120,17 @@
                            data-size="large">
                 </label>
                 <label class="checkbox-inline">
-                    <input type="checkbox" data-toggle="toggle" data-on="Jeg arrangerte!" data-off="uten ansvar."
+                    <input type="checkbox" data-toggle="toggle" data-on="Jeg arrangerte!" data-off="Uten ansvar."
                            data-size="large">
                 </label>
 
             </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="btn-group btn-group-lg" style="text-align: center">
+            <button type="button" class="btn btn-primary btn-lg"><span class="fa fa-check"></span> Legg til aktivitet</button>
         </div>
     </div>
 </template>
@@ -123,4 +141,8 @@
 
 <template name="graphs">
     <h1 class="jumbotron"><span class="fa fa-bar-chart"></span> Konkurransen</h1>
+</template>
+
+<template name="profile">
+    <h1 class="jumbotron"><span class="fa fa-user"></span> Min Profil</h1>
 </template>
